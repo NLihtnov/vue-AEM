@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/stellantis" mode="merge"/>
+    <filter root="/content/stellantis" mode="merge"/>
+    <filter root="/content/dam/stellantis" mode="merge">
+        <exclude pattern="/content/dam/stellantis(/.*)?"/>
+        <include pattern="/content/dam/stellantis/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/stellantis/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/stellantis" mode="merge"/>
+</workspaceFilter>

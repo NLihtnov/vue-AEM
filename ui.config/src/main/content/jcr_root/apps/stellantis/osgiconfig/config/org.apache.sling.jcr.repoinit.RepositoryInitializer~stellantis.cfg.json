@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/stellantis",
+        "create path (nt:unstructured) /content/dam/stellantis/jcr:content",
+        "set properties on /content/dam/stellantis/jcr:content\n  set cq:conf{String} to /conf/stellantis\n  set jcr:title{String} to \"Stellantis Sites Project\"\nend"
+    ]
+}
